@@ -2,7 +2,10 @@ require "open-uri"
 require "nokogiri"
 require "pry"
 
-require "player_stats/version"
+# require "./lib/player_stats/version"
+require_relative "player_stats/version"
+require_relative "player_stats/cli"
+require_relative "player_stats/Scraper"
 
 
 module PlayerStats
